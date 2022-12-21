@@ -1,0 +1,21 @@
+{
+    "name": "UGF.Views.Runtime.Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:42660805437a5bc4b85e6deefc08421b",
+        "GUID:6c7389a7d4bbed54e96eb1e71a69798e",
+        "GUID:3ad3a680cb737c6428dc532d551e7bb7",
+        "GUID:d067af32d09350a4bb33960432735e4d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

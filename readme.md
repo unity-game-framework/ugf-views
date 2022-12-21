@@ -4,13 +4,15 @@ UGF.Views
 
 ## Information
 
-- **Version**: `0.0.0-preview`
+- **Version**: `1.0.0-preview`
 - **Unity**: `2022.2`
 - **API Compatibility Level**: `.NET Standard 2.1`
 
 ### Dependencies
 
-- N/A
+- `com.ugf.description`: `2.0.0`
+- `com.ugf.initialize`: `2.9.0`
+- `com.ugf.builder`: `2.0.2`
 
 
 ### Description

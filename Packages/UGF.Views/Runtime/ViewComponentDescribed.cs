@@ -3,7 +3,9 @@ using UnityEngine;
 
 namespace UGF.Views.Runtime
 {
-    public class ViewComponent<TComponent> : View, IViewComponent where TComponent : Component
+    public class ViewComponentDescribed<TDescription, TComponent> : ViewDescribed<TDescription>, IViewComponent
+        where TDescription : class, IViewDescription
+        where TComponent : Component
     {
         public TComponent Component { get { return m_component ? m_component : throw new ArgumentException("Value not specified."); } }
         public bool HasComponent { get { return m_component != null; } }
@@ -11,6 +13,10 @@ namespace UGF.Views.Runtime
         Component IViewComponent.Component { get { return Component; } }
 
         private TComponent m_component;
+
+        public ViewComponentDescribed(TDescription description) : base(description)
+        {
+        }
 
         public void SetView(TComponent component)
         {

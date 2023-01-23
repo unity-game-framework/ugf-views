@@ -3,10 +3,12 @@ using UnityEngine;
 
 namespace UGF.Views.Runtime
 {
-    public class ViewComponent<TComponent> : View where TComponent : Component
+    public class ViewComponent<TComponent> : View, IViewComponent where TComponent : Component
     {
         public TComponent Component { get { return m_component ? m_component : throw new ArgumentException("Value not specified."); } }
         public bool HasComponent { get { return m_component != null; } }
+
+        Component IViewComponent.Component { get { return Component; } }
 
         private TComponent m_component;
 
@@ -30,6 +32,11 @@ namespace UGF.Views.Runtime
 
         protected virtual void OnClearingView()
         {
+        }
+
+        void IViewComponent.SetView(Component component)
+        {
+            SetView((TComponent)component);
         }
     }
 }

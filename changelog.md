@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.0-preview.4](https://github.com/unity-game-framework/ugf-views/releases/tag/1.0.0-preview.4) - 2024-02-22  
+
+### Release Notes
+
+- [Milestone](https://github.com/unity-game-framework/ugf-views/milestone/5?closed=1)  
+    
+
+### Added
+
+- Add value view components ([#9](https://github.com/unity-game-framework/ugf-views/issues/9))  
+    - Add `ViewValueComponent<T>` abstract class to implement value handler view component.
+    - Add `ViewDecimalComponent`, `ViewIntegerComponent`, `ViewObjectComponent` and `ViewTextComponent` class as value handler view components.
+    - Change `ViewIdComponent` class component to implement `ViewValueComponent<GlobalId>` class.
+
 ## [1.0.0-preview.3](https://github.com/unity-game-framework/ugf-views/releases/tag/1.0.0-preview.3) - 2023-11-18  
 
 ### Release Notes

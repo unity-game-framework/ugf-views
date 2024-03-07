@@ -4,7 +4,7 @@ UGF.Views
 
 ## Information
 
-- **Version**: `1.0.0-preview.4`
+- **Version**: `1.0.0-preview.5`
 - **Unity**: `2023.2`
 - **API Compatibility Level**: `.NET Standard 2.1`
 

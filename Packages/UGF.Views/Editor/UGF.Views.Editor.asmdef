@@ -1,0 +1,19 @@
+{
+    "name": "UGF.Views.Editor",
+    "rootNamespace": "UGF.Views.Editor",
+    "references": [
+        "GUID:42660805437a5bc4b85e6deefc08421b",
+        "GUID:abdd615e45137c74ca2ce9c636c78c15"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
